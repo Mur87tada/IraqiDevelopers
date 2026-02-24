@@ -1,75 +1,97 @@
-<!-- =========================
-     PITCH RIBBON (README)
-     ========================= -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Pitch Ribbon</title>
+<meta name="description" content="Free MIDI Pitch Bend controller app." />
+<style>
+body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial; background:#0b1220; color:#e6edf3; }
+.wrap { max-width: 980px; margin: 0 auto; padding: 28px 18px; }
+.card { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.10); border-radius: 18px; padding: 20px; }
+.top { display:flex; gap:18px; align-items:center; flex-wrap:wrap; }
+.logo { width:90px; height:90px; border-radius: 20px; overflow:hidden; border:1px solid rgba(255,255,255,0.15); }
+.logo img { width:100%; height:100%; object-fit:cover; }
+h1 { margin: 0; font-size: 28px; }
+h2 { margin-top: 24px; }
+.muted { color: rgba(230,237,243,0.75); margin: 6px 0 0; line-height:1.7; }
+.btns { margin-top: 16px; }
+.btn { display:inline-block; padding: 12px 18px; border-radius: 12px; text-decoration:none; font-weight:600; background:#2ea043; color:#081018; }
+.hero { margin-top: 25px; border-radius: 18px; overflow:hidden; border:1px solid rgba(255,255,255,0.15); }
+.hero img { width:100%; display:block; }
+.section { margin-top: 24px; }
+.footer { margin-top: 30px; font-size: 13px; color: rgba(230,237,243,0.65); text-align:center; }
+.rtl { direction:rtl; text-align:right; }
+</style>
+</head>
+<body>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Mur87tada/MurtadhaAlAssel/refs/heads/main/photo_2026-02-24_19-38-54.jpg" alt="Pitch Ribbon Screenshot" width="900" />
+<div class="wrap">
+<div class="card">
+
+<div class="top">
+<div class="logo">
+<img src="https://raw.githubusercontent.com/Mur87tada/MurtadhaAlAssel/refs/heads/main/pitchribbon.png" alt="Pitch Ribbon Icon">
+</div>
+<div>
+<h1>Pitch Ribbon</h1>
+<p class="muted">
+A free MIDI Pitch Bend controller designed for real-time expressive performance.
+Compatible with Yamaha and Korg PA keyboards.
 </p>
+<div class="btns">
+<a class="btn" href="https://play.google.com/store/apps/details?id=com.murtada.pitchribbon" target="_blank">
+Download on Google Play
+</a>
+</div>
+</div>
+</div>
 
-<h1 align="center">Pitch Ribbon</h1>
-<p align="center">
-  Free MIDI Pitch Bend controller — Simple, precise, and powerful.
+<div class="hero">
+<img src="https://raw.githubusercontent.com/Mur87tada/MurtadhaAlAssel/refs/heads/main/photo_2026-02-24_19-38-54.jpg" alt="Pitch Ribbon Screenshot">
+</div>
+
+<div class="section">
+<h2>Features</h2>
+<p class="muted">
+• Real-time ribbon pitch bend control<br>
+• Smooth and precise MIDI Pitch Bend values<br>
+• Adjustable bend range and sensitivity<br>
+• Works via USB MIDI (OTG / Hub)<br>
+• Compatible with Yamaha keyboards<br>
+• Compatible with Korg PA series<br>
+• 100% Free — No Ads
 </p>
+</div>
 
-<p align="center">
-  <a href="https://play.google.com/store/apps/details?id=com.murtada.pitchribbon">
-    <img alt="Get it on Google Play"
-         src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
-         width="220">
-  </a>
+<hr style="margin-top:30px; opacity:0.2;">
+
+<div class="section rtl">
+<h2>العربية</h2>
+<p class="muted">
+Pitch Ribbon هو تطبيق مجاني يحوّل هاتفك إلى شريط تحكم احترافي بالـ MIDI Pitch Bend،
+ويسمح بالعزف التعبيري المباشر على كيبوردات Yamaha و Korg PA.
 </p>
+<p class="muted">
+المميزات:<br>
+• تحكم فوري وسلس بقيمة Pitch Bend<br>
+• دقة عالية واستجابة سريعة<br>
+• إمكانية تعديل مدى الحساسية<br>
+• يعمل عبر USB MIDI باستخدام OTG أو Hub<br>
+• مجاني بالكامل وبدون إعلانات
+</p>
+</div>
 
----
+<div class="footer">
+© <span id="year"></span> Pitch Ribbon — All rights reserved.
+</div>
 
-## English
+</div>
+</div>
 
-### What is Pitch Ribbon?
-**Pitch Ribbon** is a free Android application that turns your mobile device into a precise **MIDI Pitch Bend controller**.  
-It is designed for live performance and real-time control of pitch bend via a **slide ribbon interface**.
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 
-### Key Features
-- Simple and responsive **ribbon slider** for pitch bend control.
-- Precise adjustment of MIDI **Pitch Bend values**.
-- Adjustable **bend range** and direction settings.
-- Clean interface optimized for performance.
-- Works with USB-MIDI keyboards.
-
-### Keyboard Support
-Pitch Ribbon supports keyboards from:
-- **Yamaha**
-- **Korg PA series**
-(Over USB MIDI with OTG / Hub)
-
-### Ads & Cost
-- **100% Free**
-- **No advertisements**
-
----
-
-## العربية
-
-### ما هو تطبيق Pitch Ribbon؟
-**Pitch Ribbon** هو تطبيق مجاني لأجهزة الأندرويد يحوّل جهازك إلى **جهاز تحكم بـ MIDI Pitch Bend** بدقة عالية.  
-يقدّم واجهة **شريط سحب (Ribbon)** سهلة وسريعة للتحكّم بقيمة الـ Pitch Bend أثناء العزف المباشر.
-
-### أهم المميزات
-- شريط سحب بسيط وسريع للتحكم بالـ Pitch Bend.
-- دقة عالية بقيم MIDI Pitch Bend.
-- إعدادات تعديل قيم ومدى الـ Bend واتجاه السحب.
-- واجهة نظيفة ومناسبة للأداء الحي.
-- يعمل مع لوحات مفاتيح USB-MIDI.
-
-### دعم الأجهزة
-التطبيق يدعم التشغيل مع لوحات المفاتيح من:
-- **Yamaha**
-- **Korg PA** (عبر USB MIDI مع OTG / Hub)
-
-### مجاني وبدون إعلانات
-- التطبيق **مجاناً بالكامل**.
-- **لا يحتوي على إعلانات**.
-
----
-
-### Download
-- Google Play:  
-https://play.google.com/store/apps/details?id=com.murtada.pitchribbon
+</body>
+</html>
